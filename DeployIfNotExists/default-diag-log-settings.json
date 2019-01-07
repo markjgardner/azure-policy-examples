@@ -1,0 +1,53 @@
+{
+  "mode": "all",
+  "policyRule": {
+    "if": {
+      "allOf": [
+        {
+          "field": "type",
+          "equals": "Microsoft.Web/sites"
+        }
+      ]
+    },
+    "then": {
+      "effect": "DeployIfNotExists",
+      "details": {
+        "type": "Microsoft.Web/sites/config",
+        "roleDefinitionIds": [
+          "/providers/Microsoft.Authorization/roleDefinitions/8e3af657-a8ff-443c-a75c-2fe8c4bcb635"
+        ],
+        "existenceCondition": {
+          "field": "Microsoft.Web/sites/config/detailedErrorLoggingEnabled",
+          "equals": "true"
+        },
+        "deployment": {
+          "properties": {
+            "mode": "incremental",
+            "template": {
+              "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+              "contentVersion": "1.0.0.0",
+              "parameters": {
+                "name": {
+                  "type": "string"
+                }
+              },
+              "resources": [],
+              "outputs": {
+                "text": {
+                  "type": "string",
+                  "value": "Policy executed for resource [parameters('name')]"
+                } 
+              }
+            },
+            "parameters": {
+              "name": {
+                "value": "[field('name')]"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "parameters": {}
+}

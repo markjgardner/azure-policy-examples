@@ -1,0 +1,84 @@
+{
+  "authorization": {
+      "action": "Microsoft.Web/sites/write",
+      "scope": "/subscriptions/ae11b860-a23e-44ad-b37d-16053ab03c62/resourceGroups/mjgtest/providers/Microsoft.Web/sites/mjgtest"
+  },
+  "caller": "margard@microsoft.com",
+  "channels": "Operation",
+  "claims": {
+      "aud": "https://management.core.windows.net/",
+      "iss": "https://sts.windows.net/72f988bf-86f1-41af-91ab-2d7cd011db47/",
+      "iat": "1546627667",
+      "nbf": "1546627667",
+      "exp": "1546631567",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "aio": "AUQAu/8JAAAAE8KJNPvwelLXjnMrHVs8XouzhLnjmAE7qGqv/5qWd+0n1FBklrxXA3OqaXAi7CgApHoen7UzX5CcB9zqx0KiOA==",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "rsa,mfa",
+      "appid": "c44b4083-3bb0-49c1-b47d-974e53cbdf3c",
+      "appidacr": "2",
+      "http://schemas.microsoft.com/2012/01/devicecontext/claims/identifier": "953a5981-a1d2-4d0b-bf0a-0ff1ded905b9",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Gardner",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Mark",
+      "groups": "b2d6b512-ed9d-4c50-ae0e-1071ab1d847f,6714f733-065e-47f7-bfc7-996d5d2b608c,f3854a91-a176-4f91-8689-d1eb592d9da6,0d4b14c0-ba76-4a90-9b2a-bfd33e83bb0b,e6138ee2-b567-49eb-97df-8f1777682acf,985e804f-3e57-4311-abb0-5f35329eb35f,80273e34-0771-4970-908d-b545af400470,d3b598a3-c97b-46e1-80dd-e7260e261cd2,6c9764c1-fae1-4296-9144-ff3908561964,e3e8d45d-aca3-452d-92e7-888327a5fb5b,ee5d95f9-f7f8-4669-a18e-2802b0ed3a36,ab1d6131-2518-4458-9339-da6502845a64,6444f1fa-4052-45d3-a4c2-ffd462f6861e,a9fa9258-ec7e-4783-8fa2-1f79669aae44,0587cbb9-18eb-47b4-bae8-537a21eb3c66,0d6d0db5-7d41-4e23-994c-be35a3f07628,856af9d2-5614-41e3-bb91-c7e6396edcd5,a3e13e9d-53cb-4a17-b7a6-d5ab45aa087b,1ee458c8-0ee3-419f-b7b8-e64965b9a131,4bc66884-faa5-473f-94c3-5a2ad3c63705,04deabd6-552f-4367-92a5-bdfdd3750fab,409a6b8f-946b-47d9-b944-5a7338dc2e19,90e4a495-a9e3-4b4d-901b-369bb5ff3cec,5fcc1525-0dc3-4cea-8566-18180982a8ff,22a229bd-c7a2-49d0-9eaa-e1fc888daac6,df4eda15-6bf7-43dc-8dff-7f88e04c1745,23bacea6-9b41-49d6-88b7-a3e1e5807afa,9d529d5e-b882-4ffb-a8e6-c4147c680735,be8ca378-bc74-46c1-b922-e7f552486ede,e7c43d00-4200-44fe-8bdb-d48fc4841e2a,0ef91577-6637-4850-a4c4-891a1dfb4aa4,cc1603bd-f572-4883-a859-eaa0d46f4011,9728342f-e1a5-4a8a-ac20-e3a3de5e13de,ac92452c-61f2-4259-9ee3-99de008e166f,8f40af55-5617-43d0-8052-24488edd9d66,bf5304cf-771c-42cc-9ff8-577e99d66101,62edbd7b-8d46-4d2c-a5a1-da5b78ba1d38,572b77d7-5940-4c6b-befa-40b218eee549,da0a01a2-a3c4-496b-bc4f-1c490dc94794,d729f8df-b631-475d-acb5-1a18a068905b",
+      "in_corp": "true",
+      "ipaddr": "76.3.23.196",
+      "name": "Mark Gardner",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "799fd6b9-bfe9-42b5-a623-148d71a0cf86",
+      "onprem_sid": "S-1-5-21-124525095-708259637-1543119021-1863901",
+      "puid": "100320002C5FBD64",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "IUlqZJFZQgjQ9u1vxHPf-I7WcvRL8NS45Nw0JF53CLg",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "margard@microsoft.com",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "margard@microsoft.com",
+      "uti": "VXW1HFXQ7kWl1jA0WbgBAA",
+      "ver": "1.0"
+  },
+  "correlationId": "cfb447dc-b642-4990-9b8f-d193bff656f8",
+  "description": "",
+  "eventDataId": "552f7411-2d87-4042-a705-c92e321c7653",
+  "eventName": {
+      "value": "EndRequest",
+      "localizedValue": "End request"
+  },
+  "category": {
+      "value": "Policy",
+      "localizedValue": "Policy"
+  },
+  "eventTimestamp": "2019-01-04T19:41:29.9076722Z",
+  "id": "/subscriptions/ae11b860-a23e-44ad-b37d-16053ab03c62/resourceGroups/mjgtest/providers/Microsoft.Web/sites/mjgtest/events/552f7411-2d87-4042-a705-c92e321c7653/ticks/636822276899076722",
+  "level": "Error",
+  "operationId": "87833aa2-d51f-47bc-bee0-c5be3433e35e",
+  "operationName": {
+      "value": "Microsoft.Authorization/policies/deployIfNotExists/action",
+      "localizedValue": "Microsoft.Authorization/policies/deployIfNotExists/action"
+  },
+  "resourceGroupName": "mjgtest",
+  "resourceProviderName": {
+      "value": "Microsoft.Web",
+      "localizedValue": "Azure Web Sites"
+  },
+  "resourceType": {
+      "value": "Microsoft.Web/sites",
+      "localizedValue": "Microsoft.Web/sites"
+  },
+  "resourceId": "/subscriptions/ae11b860-a23e-44ad-b37d-16053ab03c62/resourceGroups/mjgtest/providers/Microsoft.Web/sites/mjgtest",
+  "status": {
+      "value": "Failed",
+      "localizedValue": "Failed"
+  },
+  "subStatus": {
+      "value": "",
+      "localizedValue": ""
+  },
+  "submissionTimestamp": "2019-01-04T19:41:56.0699149Z",
+  "subscriptionId": "ae11b860-a23e-44ad-b37d-16053ab03c62",
+  "properties": {
+      "isComplianceCheck": "False",
+      "resourceLocation": "eastus2",
+      "ancestors": "",
+      "policies": "[{\"policyDefinitionId\":\"/subscriptions/ae11b860-a23e-44ad-b37d-16053ab03c62/providers/Microsoft.Authorization/policyDefinitions/margard test policy/\",\"policyDefinitionName\":\"margard test policy\",\"policyDefinitionEffect\":\"DeployIfNotExists\",\"policyAssignmentId\":\"/subscriptions/ae11b860-a23e-44ad-b37d-16053ab03c62/resourceGroups/mjgtest/providers/Microsoft.Authorization/policyAssignments/margardassignment/\",\"policyAssignmentName\":\"margardassignment\",\"policyAssignmentScope\":\"/subscriptions/ae11b860-a23e-44ad-b37d-16053ab03c62/resourceGroups/mjgtest\"}]",
+      "errorMessage": "The attempt to retrieve resources of type 'Microsoft.Web/sites/config' for the 'DeployIfNotExists' policy resulted in a BadRequest response with error '{\"error\":{\"code\":\"NoRegisteredProviderFound\",\"message\":\"No registered resource provider found for location 'eastus2' and API version '2018-12-01-alpha' for type 'sites'. The supported api-versions are '2018-11-01, 2018-02-01, 2016-08-01, 2015-08-01-preview, 2016-03-01, 2015-08-01, 2015-07-01, 2015-06-01, 2015-05-01, 2015-04-01, 2015-02-01, 2014-11-01, 2014-06-01, 2014-04-01, 2014-04-01-preview, 2018-12-01-alpha'. The supported locations are 'centralus, northeurope, westeurope, southeastasia, koreacentral, koreasouth, westus, eastus, japanwest, japaneast, eastasia, eastus2, northcentralus, southcentralus, brazilsouth, australiaeast, australiasoutheast, westindia, centralindia, southindia, canadacentral, canadaeast, westcentralus, ukwest, uksouth, westus2, msftwestus, msfteastus, msfteastasia, msftnortheurope, eastus2stage, centralusstage, northcentralusstage, francecentral, eastasiastage'.\"}}'."
+  },
+  "relatedEvents": []
+}
